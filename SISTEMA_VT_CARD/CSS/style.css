@@ -15,7 +15,7 @@ body {
     position: relative;
     top: 190px;
     border: 1px solid #f1f1f1;
-    box-shadow: 0 1px 5px #09f;
+    box-shadow: 0 1px 5px #129e38;
     padding: 15px;
 }
 
@@ -44,10 +44,10 @@ body {
 }
 
 .txt:focus, .sb,.sb:hover{
-    border: thin solid #09f;
-    box-shadow: 0 2px 10px #09f;
-    -webkit-box-shadow: 0 2px 10px #09f;
-    -moz-box-shadow: 0 2px 10px #09f;
+    border: thin solid #129e38;
+    box-shadow: 0 2px 10px #129e38;
+    -webkit-box-shadow: 0 2px 10px #129e38;
+    -moz-box-shadow: 0 2px 10px #129e38;
 }
 .sb{
     display: block;
@@ -60,7 +60,7 @@ body {
     color: #999;
 }
 .sb:hover{
-    background: #09f;
+    background: #129e38;
     color: #fff
 }
 
