@@ -5,6 +5,9 @@
     list-style: none;
 }
 
+a{
+    text-decoration:none;
+}
 body {
     font: 300 16px Oswald;
 }
@@ -24,6 +27,39 @@ body {
     height: 60px;
     margin: 0 auto;
     padding: 7px;
+}
+
+#cadastrar{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 15px;
+    -webki-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-bottomleft-radius: 8px;
+    -moz-border-bottom-bottomright-radius: 15px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background: #f1f1f1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#cadastrar a {
+    padding-top: 5px;
+    display: block;
+    color: #999;
+    font: 400 18px Oswald;
+    
+}
+
+#cadastrar:hover a{
+    color: #fff;
+}
+
+#cadastrar:hover{
+    background: #129e38;
+    color: #fff;
 }
 
 #login label{
@@ -81,7 +117,7 @@ body {
 }
 
 /*MUTIPLOS ESTILOS*/
-.txt,.txt:focus{
+.txt,.txt:focus,.sb,.sb:houver,#cadastrar:hover,#cadastrar{
  transition:all 0.5s linear;
 -webkit-transition: all 0.5s linear;
 -moz-transition:all 0.5s linear;
