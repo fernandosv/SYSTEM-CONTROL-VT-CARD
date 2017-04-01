@@ -8,7 +8,7 @@
         <div id="cadastrar"><a href="index.php" title="ENTRAR">Login &raquo; </a></div>
         <div id="login" class="bradius" style="top: 120px;">
             <div class="message"></div>
-            <div class="logo"><a href="<?php echo $home;?>" title="<?php echo $title;?>"><img src="/imagens/log_vt_card.png" alt="<?php echo $title;?>" title="<?php echo $title;?>" width="150" height="60" /></a></div>
+            <div class="logo"><a href="<?php echo $home;?>" title="<?php echo $title;?>"><img src="/CSS/imagens/log_vt_card.png" alt="<?php echo $title;?>" title="<?php echo $title;?>" width="150" height="60" /></a></div>
             <div class="acomodar">
                 <form action="" method="post">
                     <label for="nome">Nome</label><input id="nome" type="text" class="txt bradius" name="nome" value=""</>
