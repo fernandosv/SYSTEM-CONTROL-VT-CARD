@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href=CSS/style.css>
     </head>
     <body>
-        <div id="cadastrar"><a href="cadastro.php" title="Cadastre-se">Cadastre-se &raquo; </a></div>
+        <div id="cadastrar"><a href="/cadastro.php" title="Cadastre-se">Cadastre-se &raquo; </a></div>
         <div id="login" class="bradius">
             <div class="message"></div>
             <div class="logo"><a href="<?php echo $home;?>" title="<?php echo $title;?>"><img src="/imagens/log_vt_card.png" alt="<?php echo $title;?>" title="<?php echo $title;?>" width="150" height="60" /></a></div>
