@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class="container-fluid">
-                    <div class="container">
+            <div class="container">
                     <!--BARRA NAVEGACAO RESPONSIVEL-->       
                     <nav class="navbar navbar-inverse">
                             <div class="container-fluid">
@@ -77,11 +77,13 @@
                     <div class="col-sm-4" >.col-sm-4</div>
                     <div class="col-sm-8" >.col-sm-8</div>
                     
+                                        
                     <div class="panel panel-default">
                         <div class="panel-footer">Panel footer</div>
                     </div>
-                </div>
-            <!--container-fluid-->
-            </div>  
+                    
+            </div>
+        <!--container-fluid-->
+        </div>
     </body>
 </html>
